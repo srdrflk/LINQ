@@ -1,0 +1,51 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.generated.cs
+
+# Logs
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Packages
+*.nupkg
+*.snupkg
+
+# Backup & Reporting
+*.bak
+*.log
+
+# Node Modules
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# .dbmdl files
+*.dbmdl
+
+# .vsidx files
+*.vsidx
+
+# .jfm files
+*.jfm
