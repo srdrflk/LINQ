@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\LINQ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1186CF19-43A2-466F-BF7C-8A8401908D8E}|Task1.Tests\\Task1.Tests.csproj|c:\\users\\serdar_filik\\desktop\\dotnetbasicmentorprojects\\linq\\task1.tests\\linqtasktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1186CF19-43A2-466F-BF7C-8A8401908D8E}|Task1.Tests\\Task1.Tests.csproj|C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\LINQ\\task1.tests\\linqtasktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1186CF19-43A2-466F-BF7C-8A8401908D8E}|Task1.Tests\\Task1.Tests.csproj|solutionrelative:task1.tests\\linqtasktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1186CF19-43A2-466F-BF7C-8A8401908D8E}|Task1.Tests\\Task1.Tests.csproj|c:\\users\\serdar_filik\\desktop\\dotnetbasicmentorprojects\\linq\\task1.tests\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1186CF19-43A2-466F-BF7C-8A8401908D8E}|Task1.Tests\\Task1.Tests.csproj|solutionrelative:task1.tests\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3D4831E-CF12-4FEF-98DE-A5F1D9B1DF2A}|Task1\\Task1.csproj|c:\\users\\serdar_filik\\desktop\\dotnetbasicmentorprojects\\linq\\task1\\linqtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3D4831E-CF12-4FEF-98DE-A5F1D9B1DF2A}|Task1\\Task1.csproj|solutionrelative:task1\\linqtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1186CF19-43A2-466F-BF7C-8A8401908D8E}|Task1.Tests\\Task1.Tests.csproj|C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\LINQ\\task1.tests\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1186CF19-43A2-466F-BF7C-8A8401908D8E}|Task1.Tests\\Task1.Tests.csproj|solutionrelative:task1.tests\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LinqTask.cs",
+              "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\LINQ\\Task1\\LinqTask.cs",
+              "RelativeDocumentMoniker": "Task1\\LinqTask.cs",
+              "ToolTip": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\LINQ\\Task1\\LinqTask.cs",
+              "RelativeToolTip": "Task1\\LinqTask.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T14:48:20.116Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -60,36 +74,22 @@
               "RelativeDocumentMoniker": "Task1.Tests\\LinqTaskTests.cs",
               "ToolTip": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\LINQ\\Task1.Tests\\LinqTaskTests.cs",
               "RelativeToolTip": "Task1.Tests\\LinqTaskTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAuwEsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T14:50:04.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DataSource.cs",
               "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\LINQ\\Task1.Tests\\DataSource.cs",
               "RelativeDocumentMoniker": "Task1.Tests\\DataSource.cs",
               "ToolTip": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\LINQ\\Task1.Tests\\DataSource.cs",
               "RelativeToolTip": "Task1.Tests\\DataSource.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABABAAAAAAAAAAAkwIUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T14:50:00.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LinqTask.cs",
-              "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\LINQ\\Task1\\LinqTask.cs",
-              "RelativeDocumentMoniker": "Task1\\LinqTask.cs",
-              "ToolTip": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\LINQ\\Task1\\LinqTask.cs",
-              "RelativeToolTip": "Task1\\LinqTask.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBUAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T14:48:20.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T14:50:00.322Z"
             }
           ]
         }
