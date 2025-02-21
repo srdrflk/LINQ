@@ -7,6 +7,7 @@ namespace Task1
 {
     public static class LinqTask
     {
+        // 1.Find all customers with the sum of all orders that exceed a certain value.
         public static IEnumerable<Customer> Linq1(IEnumerable<Customer> customers, decimal limit)
         {
             if (customers == null)
@@ -15,6 +16,7 @@ namespace Task1
             return customers.Where(c => c.Orders.Sum(o => o.Total) > limit);
         }
 
+        // For each customer make a list of suppliers located in the same country and the same city. Compose queries with grouping. (REQUIREMENT BEFORE LIST NUMBERS)
         public static IEnumerable<(Customer customer, IEnumerable<Supplier> suppliers)> Linq2(
             IEnumerable<Customer> customers,
             IEnumerable<Supplier> suppliers
@@ -29,6 +31,7 @@ namespace Task1
             return customers.Select(c => (c, suppliers.Where(s => s.Country == c.Country && s.City == c.City)));
         }
 
+        // For each customer make a list of suppliers located in the same country and the same city. Compose queries with grouping. (REQUIREMENT BEFORE LIST NUMBERS)
         public static IEnumerable<(Customer customer, IEnumerable<Supplier> suppliers)> Linq2UsingGroup(
             IEnumerable<Customer> customers,
             IEnumerable<Supplier> suppliers
@@ -44,6 +47,7 @@ namespace Task1
                                 (cust, supp) => (cust, supp));
         }
 
+        // Select the customers whose total turnover (the sum of all orders) exceeds a certain value. (REQUIREMENT BEFORE LIST NUMBERS)
         public static IEnumerable<Customer> Linq3(IEnumerable<Customer> customers, decimal limit)
         {
             if (customers == null)
@@ -59,6 +63,7 @@ namespace Task1
 
         }
 
+        // 2. Select the clients, including the date of their first order.
         public static IEnumerable<(Customer customer, DateTime dateOfEntry)> Linq4(
             IEnumerable<Customer> customers
         )
@@ -75,6 +80,7 @@ namespace Task1
 
         }
 
+        // 3. Repeat the previous query but order the result by year, month, turnover (descending), and customer name.
         public static IEnumerable<(Customer customer, DateTime dateOfEntry)> Linq5(
             IEnumerable<Customer> customers
         )
@@ -97,6 +103,10 @@ namespace Task1
                 .ToList();
         }
 
+        // 4. Select the clients which either have:
+        //    a. non-digit postal code
+        //    b. undefined region
+        //    c. operator code in the phone is not specified (does not contain parentheses)
         public static IEnumerable<Customer> Linq6(IEnumerable<Customer> customers)
         {
             if (customers == null)
@@ -111,6 +121,7 @@ namespace Task1
                 .ToList();
         }
 
+        // 5. Group the products by category, then by availability in stock with ordering by cost.
         public static IEnumerable<Linq7CategoryGroup> Linq7(IEnumerable<Product> products)
         {
             /* example of Linq7result
@@ -146,6 +157,10 @@ namespace Task1
 
         }
 
+        // 6. Group the products by “cheap”, “average”, and “expensive” following the rules:
+        //    a. From 0 to cheap inclusive
+        //    b. From cheap exclusive to average inclusive
+        //    c. From average exclusive to expensive inclusive
         public static IEnumerable<(decimal category, IEnumerable<Product> products)> Linq8(
             IEnumerable<Product> products,
             decimal cheap,
@@ -167,6 +182,7 @@ namespace Task1
 
         }
 
+        // 7. Calculate the average profitability of each city (average amount of orders per customer) and average rate (average number of orders per customer from each city).
         public static IEnumerable<(string city, int averageIncome, int averageIntensity)> Linq9(
             IEnumerable<Customer> customers
         )
@@ -197,6 +213,7 @@ namespace Task1
             return listOfResults;
         }
 
+        // 8. Build a string of unique supplier country names, sorted first by length and then by country.
         public static string Linq10(IEnumerable<Supplier> suppliers)
         {
             if (suppliers == null)
